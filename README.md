@@ -18,3 +18,10 @@
     git reset --hard upstream/main
 
 ```
+point :
+whta if i want to undo the commit after creating the pull request
+    just reset the commit and force push it 
+    force push: -f
+```console
+    git push origin branch -f
+```
