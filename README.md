@@ -14,5 +14,7 @@
     git branch new_branch
     git checkout new_branch
     git push origin new_branch
+    git fetch --all --prune
+    git reset --hard upstream/main
 
 ```
