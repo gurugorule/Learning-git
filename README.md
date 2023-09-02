@@ -2,8 +2,9 @@
 -learning git is Awesome
 ```console
     git init
-    git ststus
+    git status
     git add .
+    git stash ->  pop, clear
     git commit -m "message"
     git restore 
     git reset
