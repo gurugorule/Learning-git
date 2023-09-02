@@ -9,6 +9,7 @@
     git restore 
     git reset
     git remote add origin url
+    git remote -v
     git remote remove origin
     git branch new_branch
     git checkout new_branch
