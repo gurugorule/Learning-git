@@ -6,13 +6,17 @@
     git add .
     git stash ->  pop, clear
     git commit -m "message"
+    git log --all --graph
     git restore 
     git reset
     git remote add origin url
     git remote -v
     git remote remove origin
+    git branch 
     git branch new_branch
-    git checkout new_branch
+    git branch -d branch_name 
+    git checkout new_branch 
+    git checkout -b new_branch
     git push origin new_branch
     git fetch --all --prune
     git reset --hard upstream/main
