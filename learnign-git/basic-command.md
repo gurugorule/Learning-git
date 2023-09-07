@@ -2,7 +2,7 @@
 
 ``` console
 
-Confi guration
+Configuration
     git config --global user.name 'name'
     git config --global user.email 'email'
     git congit --global alias.s "status"   -> git s == git status
