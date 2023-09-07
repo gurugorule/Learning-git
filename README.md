@@ -1,6 +1,6 @@
 # learning git is Awesome
 
-<img src="./assets/git.png>
+<img src="./assets/git.png">
 
 ## In this toturial we will learn about git and github 
 
