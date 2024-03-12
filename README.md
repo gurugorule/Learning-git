@@ -11,4 +11,4 @@
 
 - navigate to learning-git folder there are basic commands of git 
 
-this repo is still under Development..
+### this repo is still under Development..
