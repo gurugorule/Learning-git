@@ -2,6 +2,7 @@
 - Almost any [[Programming Language]] can be Edit/Run by using Vim
 - To open file in Vim enter `vim file_name` in terminal 
 ## Vim has 3 Modes
+***
 #### Normal Mode : 
 - To enter into Normal Mode press `Esc` key
 - to Navigate between Text
@@ -31,6 +32,7 @@
 	5. `x`  or `exit` - same as `wq` write & quit
 	6. `!` - allow you to run bash command while using vim
 	7. `r file_name` - read -> read the file_name and past the text into current buffer 
+	8. `Ex` - explore tab, gets you back to the working Directory 
 - `Buffer` is the small memory allocation which vim use to store text when file is not saved
 	1. `e file_name` - to edit file_name buffer
 	2. `bp` - buffer previous
@@ -74,3 +76,4 @@ to customise vim [Vim customisation guide](https://www.freecodecamp.org/news/vim
 
 `vim -o file_1 file_2` -> To open vim in horizontal split mode with file_1 and file_2
 `vim -O file_1 file_2`-> To open vim in vertical split mode with file_1 and file_2
+`vim .` or `vim dir_name` -> To open any dir in vim Window
