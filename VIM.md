@@ -12,6 +12,7 @@
 	k - up 
 	l - right 
     ```
+
 - Shortcuts keys to optimised experience with Vim 
 	1. `u` - undo 
 	2. `Ctrl + r` - redo 
@@ -33,6 +34,7 @@
 	6. `!` - allow you to run bash command while using vim
 	7. `r file_name` - read -> read the file_name and past the text into current buffer 
 	8. `Ex` - explore tab, gets you back to the working Directory 
+
 - `Buffer` is the small memory allocation which vim use to store text when file is not saved
 	1. `e file_name` - to edit file_name buffer
 	2. `bp` - buffer previous
@@ -40,15 +42,19 @@
 	4.  `bd` - buffer delete
 	5. `badd file_name` - buffer add -> to add new file_name buffer 
 	6. `enew` - to add new empty buffer
+
 - To Search and replace text with new one
 	- `%s/text/nex_text/g`
+
 - To split vim window
 	1. `split file_name` / `sp file_name` - Horizontal split between current_file and file_name
 	2. `vsplit file_name`  / `vs file_name`- Vertical split between current_file and file_name
 - Config tips
+
 	1. to add line numbers `set number`
 	2. to remover line numbers `set nonumber`
 	3. to display file name at top bar `set title`
+
 - To paste text copied from some were else (like Wikipedia or google)
 	- Copy the text and in `COMMAND MODE` type `set paste`
 	- Now you can paste the text via using `ctrl+shift+v` 
@@ -61,6 +67,7 @@
 	```
 	then you can past the selecte text by pressing 'p' in NORMAL MODE
 	```
+
   - To Sort the selected Lines of text in alphabetical order
 	  1. press `:` in visual mode and type `sort ui`
 	  
@@ -70,7 +77,8 @@
 - In this mode you can make changes/edits in the file 
 - to enter in `INSERT MODE` press ' i ' in `NORMAL MODE`
 - to get into `INSERT MODE` but at the end of line press ' A ' aka Append mode
-**** 
+***
+
 Make a `.vimrc` file in `~` home directory -> add your config instruction into `.vimrc` file 
 to customise vim [Vim customisation guide](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/)
 
