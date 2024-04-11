@@ -9,6 +9,6 @@
 
 ## how to learn git from this repo
 
-- navigate to learning-git folder there are basic commands of git 
+- open Git-command.md to know more about the git
 
 ### this repo is still under Development..
